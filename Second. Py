@@ -1,0 +1,17 @@
+N=int(input('enter n:')) 
+Even_sum=0
+Odd_sum=0
+For i in range (1, 1+n) 
+if i%2==0: 
+Even_sum=even_sum*i
+Else: 
+Odd_sum=odd_sum*i
+Print('the sum of even numbers: ', even_sum) 
+Print('the sum of odd numbers: ', odd_sum) 
+
+
+
+Output
+Enter n=5
+The sum of even numbers =6
+The sum of odd numbers =9
